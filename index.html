@@ -11,44 +11,38 @@
       color: #ffffff;
       margin: 0;
       padding: 0;
-    }
-
-    header {
-      background-color: #1e1e1e;
-      padding: 20px 40px;
       display: flex;
+      flex-direction: column;
       align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
     }
 
     .logo {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+      margin-top: 60px;
+      text-align: center;
     }
 
     .logo img {
-      height: 80px;
-    }
-
-    .tagline {
-      font-size: 14px;
-      color: #ccc;
-      margin-top: 5px;
-      margin-left: 10px;
+      height: 150px;
     }
 
     main {
-      padding: 60px 40px;
+      margin-top: 40px;
+      text-align: center;
+      max-width: 800px;
+      padding: 0 20px;
     }
 
-    h2 {
+    h1 {
       color: #00ffcc;
+      font-size: 32px;
     }
 
     p {
-      line-height: 1.6;
       font-size: 18px;
-      max-width: 800px;
+      line-height: 1.6;
+      color: #ccc;
     }
 
     a {
@@ -63,16 +57,13 @@
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="geared-logo.png" alt="GEARED Logo" style="height: 80px;" />
-      <div class="tagline">Manufacturing Innovations</div>
-    </div>
-  </header>
+  <div class="logo">
+    <img src="GEARED LOGO.jpg" alt="GEARED Logo" />
+  </div>
 
   <main>
-    <h2>Welcome to GEARED</h2>
-    <p>GEARED is your go-to AI-powered troubleshooting system for packaging machinery. Whether you're diagnosing tension faults or logging parts data, GEARED helps you move faster, smarter, and cleaner.</p>
+    <h1>Welcome to GEARED</h1>
+    <p>GEARED is your go-to AI-powered troubleshooting platform built for packaging and manufacturing technicians. With smart fault detection, parts documentation, and continuous improvement tools, GEARED helps you fix fast and fix smart.</p>
     <p><a href="#">Launch Platform</a></p>
   </main>
 </body>
